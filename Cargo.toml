@@ -1,0 +1,10 @@
+[package]
+name = "whoisq"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.0", features = ["json"] }
+rocket_dyn_templates = { version = "0.1.0", features = ["handlebars"] }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.0", features = ["full"] }
